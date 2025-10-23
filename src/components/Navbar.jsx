@@ -2547,8 +2547,7 @@ export default function Navbar() {
                       Signed in as <br /><strong>{displayName}</strong>
                     </li>
                     <li><Link className="dropdown-item hover:bg-indigo-50 hover:text-indigo-700" to="/profile">👤 Profile</Link></li>
-                    <li><Link className="dropdown-item hover:bg-indigo-50 hover:text-indigo-700" to="/saved">💾 Saved Jobs</Link></li>
-                    <li><Link className="dropdown-item hover:bg-indigo-50 hover:text-indigo-700" to="/applications">📄 My Applications</Link></li>
+
                     <li><Link className="dropdown-item hover:bg-indigo-50 hover:text-indigo-700" to="/settings">⚙️ Settings</Link></li>
                     <li><Link className="dropdown-item hover:bg-indigo-50 hover:text-indigo-700" to="/support">❓ Help & Support</Link></li>
                     <li><hr className="dropdown-divider" /></li>
