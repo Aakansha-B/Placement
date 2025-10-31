@@ -1,0 +1,93 @@
+/* Navbar general */
+.pp-navbar {
+  padding: 0.5rem 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+  background: white;
+}
+
+/* Avatar button */
+.pp-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #9333ea, #7e22ce); /* purple-600 → purple-700 */
+  color: transparent;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  font-size: 0.95rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+/* Avatar hover */
+.pp-avatar:hover {
+  background: linear-gradient(to right, #7e22ce, #6b21a8); /* darker purple */
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+/* Dropdown menu */
+.custom-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 0.5rem;
+  display: block;
+  min-width: 220px;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  animation: fadeIn 0.2s ease-in-out;
+  background-color: white; /* keep clean background */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Dropdown header */
+.dropdown-header {
+  font-size: 0.85rem;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(to right, #9333ea, #7e22ce);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+/* Dropdown items */
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(to right, #9333ea, #7e22ce);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.dropdown-item:hover {
+  background-color: #f1f1f1;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Navbar buttons */
+.navbar .btn {
+  padding: 0.35rem 0.75rem;
+  font-size: 0.875rem;
+  background: linear-gradient(to right, #9333ea, #7e22ce);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}

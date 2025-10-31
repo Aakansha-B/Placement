@@ -1,0 +1,70 @@
+/* Global look & feel */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --pp-primary: #9333ea;       /* purple-600 */
+  --pp-primary-hover: #7e22ce;
+  
+  --pp-border: #e5e7eb;
+  --pp-bg: #f6f7fb;
+  --pp-radius: 14px;
+  --pp-shadow: 0 10px 28px rgba(16, 24, 40, 0.06);
+}
+
+html, body {
+  background: var(--pp-bg);
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+/* Cards / sections */
+.pp-hero {
+  background: linear-gradient(180deg, #ffffff, #f7f9ff);
+  border-radius: 20px;
+  padding: 2rem 1rem;
+}
+
+.pp-hero-card {
+  background: #fff;
+  border-radius: 16px;
+}
+
+.pp-card {
+  border: 1px solid var(--pp-border);
+  border-radius: 16px;
+}
+
+.pp-shadow {
+  box-shadow: var(--pp-shadow);
+}
+
+.pp-section-title {
+  font-weight: 700;
+}
+
+/* Hide common slider/carousel nav arrows globally */
+.swiper-button-next,
+.swiper-button-prev,
+.carousel-control-next,
+.carousel-control-prev,
+.slick-next,
+.slick-prev,
+.owl-next,
+.owl-prev,
+.tns-controls [data-controls="next"],
+.tns-controls [data-controls="prev"],
+a[role="button"].carousel-control-next,
+a[role="button"].carousel-control-prev,
+button[aria-label="Next"],
+button[aria-label="Previous"] {
+  display: none !important;
+}
+
+/* Code font styling */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

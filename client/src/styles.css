@@ -1,0 +1,239 @@
+/* Placement Plaza – Global Styles */
+:root {
+  --pp-primary: #0d6efd;
+  --pp-primary-hover: #0b5ed7;
+  --pp-border: #e5e7eb;
+  --pp-bg: #f6f7fb;
+  --pp-radius: 14px;
+  --pp-shadow: 0 10px 28px rgba(16, 24, 40, .06);
+}
+
+body {
+  background: var(--pp-bg);
+  font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+/* ===============================
+   Navbar
+   =============================== */
+.navbar {
+  background: #fff;
+  border-bottom: 1px solid var(--pp-border);
+}
+.navbar .navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+.navbar .nav-link {
+  font-weight: 600;
+  color: #6b7280;
+  position: relative;
+  transition: color 0.2s ease;
+}
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+  color: var(--pp-primary);
+}
+.navbar .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0.75rem;
+  right: 0.75rem;
+  bottom: 0.25rem;
+  height: 2px;
+  background: var(--pp-primary);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.2s ease;
+}
+.navbar .nav-link:hover::after,
+.navbar .nav-link.active::after {
+  transform: scaleX(1);
+}
+
+/* ===============================
+   Avatar button
+   =============================== */
+.avatar-btn {
+  width: 40px;
+  height: 40px;
+  font-weight: 700;
+  color: #0b3c91;
+  background: #eef3ff;
+  border: 1px solid var(--pp-border);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: filter .15s ease, background .15s ease;
+}
+.avatar-btn:hover { background: #e6eeff; }
+
+/* Solid brand-blue avatar */
+.avatar-btn--blue-solid {
+  background: var(--pp-primary) !important;
+  color: #fff !important;
+  border-color: var(--pp-primary) !important;
+  box-shadow: 0 0 0 2px rgba(13,110,253,.15);
+}
+.avatar-btn--blue-solid:hover { filter: brightness(0.95); }
+
+/* Optional themed avatars */
+.avatar-btn--blue   { background:#eaf1ff; color:#0b3c91; border-color:#cfe0ff; }
+.avatar-btn--purple { background:#f1eafe; color:#5b21b6; border-color:#e3d3fb; }
+.avatar-btn--teal   { background:#e6fffb; color:#065f46; border-color:#b2f5ea; }
+.avatar-btn--amber  { background:#fff4e5; color:#7a3e00; border-color:#ffe0b3; }
+.avatar-btn--rose   { background:#ffeaf0; color:#9d174d; border-color:#ffc2d3; }
+
+/* Swatches (for dropdown color picker) */
+.avatar-swatch {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid var(--pp-border);
+  padding: 0;
+  display: inline-block;
+}
+
+/* ===============================
+   Cards / Sections
+   =============================== */
+.pp-card {
+  border: 1px solid var(--pp-border);
+  border-radius: var(--pp-radius);
+  background: #fff;
+}
+.pp-shadow { box-shadow: var(--pp-shadow); }
+.pp-section-title {
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+/* ===============================
+   Home Page Hero Section
+   =============================== */
+.pp-hero {
+  background: linear-gradient(180deg, #ffffff, #f7f9ff);
+  border-radius: 20px;
+  padding: 2rem 1rem;
+}
+.pp-hero-card {
+  border: 1px dashed var(--pp-border);
+  border-radius: 16px;
+  background: #fff;
+  padding: 1.5rem;
+}
+.pp-role {
+  border: 1px solid var(--pp-border);
+  border-radius: 12px;
+  padding: 0.8rem;
+  background: #fff;
+  font-weight: 500;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+.pp-role:hover {
+  border-color: var(--pp-primary);
+  background: #f1f5ff;
+  color: var(--pp-primary);
+}
+
+/* ===============================
+   Buttons override
+   =============================== */
+.btn-primary {
+  background-color: var(--pp-primary);
+  border-color: var(--pp-primary);
+}
+.btn-primary:hover {
+  background-color: var(--pp-primary-hover);
+  border-color: var(--pp-primary-hover);
+}
+.btn-outline-primary {
+  color: var(--pp-primary);
+  border-color: var(--pp-primary);
+}
+.btn-outline-primary:hover {
+  background-color: var(--pp-primary);
+  color: #fff;
+}
+
+/* ===============================
+   Utilities
+   =============================== */
+.text-muted { color: #6b7280 !important; }
+.dropdown-menu { border-radius: 12px; }
+
+/* ===============================
+   Chat widget (fixed across all pages)
+   =============================== */
+.pp-chat-launcher{
+  position: fixed;
+  right: calc(env(safe-area-inset-right, 0) + 20px);
+  bottom: calc(env(safe-area-inset-bottom, 0) + 20px);
+  z-index: 2147483647; /* sit above everything */
+  width: 56px; height: 56px;
+  border-radius: 50%; border: none;
+  background: var(--pp-primary); color: #fff;
+  display: inline-flex; align-items: center; justify-content: center;
+  box-shadow: var(--pp-shadow);
+  cursor: pointer;
+}
+.pp-chat-launcher .bi { font-size: 1.25rem; line-height: 1; }
+.pp-chat-launcher:hover { filter: brightness(0.95); }
+
+.pp-chat-panel{
+  position: fixed;
+  right: calc(env(safe-area-inset-right, 0) + 20px);
+  bottom: calc(env(safe-area-inset-bottom, 0) + 88px);
+  z-index: 2147483647;
+  width: 360px; max-width: calc(100vw - 32px);
+  height: 460px;
+  background: #fff;
+  border: 1px solid var(--pp-border);
+  border-radius: 16px;
+  box-shadow: var(--pp-shadow);
+  display: flex; flex-direction: column;
+}
+.pp-chat-header{
+  padding: .6rem .9rem;
+  border-bottom: 1px solid var(--pp-border);
+  background: #fff;
+  display:flex; align-items:center; justify-content:space-between;
+}
+.pp-chat-messages{ padding: .75rem; flex: 1; overflow-y: auto; background: #fafbff; }
+.pp-chat-input{ padding: .6rem; border-top: 1px solid var(--pp-border); background: #fff; display: flex; gap: .5rem; }
+.pp-bubble{ max-width: 78%; padding: .5rem .75rem; border-radius: 12px; margin-bottom: .5rem; line-height: 1.35; }
+.pp-bubble.user{ background: #e7f1ff; margin-left: auto; border-top-right-radius: 6px; }
+.pp-bubble.bot{ background: #f1f3f5; margin-right: auto; border-top-left-radius: 6px; }
+
+/* Responsive tweaks for chat */
+@media (max-width: 576px) {
+  .pp-chat-panel{
+    right: calc(env(safe-area-inset-right, 0) + 12px);
+    bottom: calc(env(safe-area-inset-bottom, 0) + 80px);
+    width: min(92vw, 360px);
+    height: 60vh;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .navbar .nav-link::after { transition: none; }
+  .avatar-btn, .pp-chat-launcher { transition: none; }
+}
+
+/* ===============================
+   Remove stray arrows / bullets in page content
+   =============================== */
+main ul, main ol { list-style: none; padding-left: 0; margin-left: 0; }
+main li::marker { content: ""; }
+main li::before, main li::after { content: none !important; }
+/* (extra safety if some link adds an arrow via ::before) */
+main a::before, main a::after { content: none !important; }
+/* Ensure navbar dropdown positions correctly without Bootstrap JS */
+.navbar .dropdown { position: relative; }
+.navbar .dropdown-menu.show { display: block; right: 0; left: auto; }
+
