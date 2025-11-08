@@ -181,30 +181,53 @@
 
 
 
+// const express = require("express");
+// const cors = require("cors");
+// require("dotenv").config();
+
+// const resumeRoutes = require("./routes/resumeRoutes");
+// //const roadmapRoutes = require("./routes/roadmapRoutes");
+// // const trackerRoutes = require("./routes/trackerRoutes");
+// // const overviewRoutes = require("./routes/overviewRoutes");
+
+// const app = express();
+// app.use(cors());
+// app.use(express.json());
+
+// // ✅ Routes
+// app.use("/api/resume", resumeRoutes);
+// //app.use("/api/roadmap", roadmapRoutes);
+// // app.use("/api/tracker", trackerRoutes);
+// // app.use("/api/overview", overviewRoutes);
+
+// const PORT = process.env.PORT || 5000;
+// app.listen(PORT, () => console.log(`✅ Server running on http://localhost:${PORT}`));
+
+
+
+
+
+// server/server.js
 const express = require("express");
 const cors = require("cors");
-const dotenv = require("dotenv");
+require("dotenv").config();
+
 const resumeRoutes = require("./routes/resumeRoutes");
-const trackerRoutes= require("./routes/trackerRoutes");
-dotenv.config();
+const roadmapRoutes = require("./routes/roadmapRoutes");
+const overviewRoutes =require( "./routes/overviewRoutes.js");
+const trackerRoutes = require("./routes/trackerRoutes");
+
 
 const app = express();
-const port = process.env.PORT || 5000;
-
 app.use(cors());
 app.use(express.json());
 
-// Base route
-app.use("/api", resumeRoutes);
-app.use("/api", trackerRoutes);
-dotenv.config();
 
-if (process.env.GROQ_API_KEY) {
-  console.log("✅ GROQ API key loaded successfully.");
-} else {
-  console.log("❌ GROQ API key not found. Check your .env file.");
-}
+// ✅ Register routes
+app.use("/api/resume", resumeRoutes);
+app.use("/api/roadmap", roadmapRoutes);
+app.use("/api/overview", overviewRoutes);
+app.use("/api/tracker", trackerRoutes);
 
-app.listen(port, () => {
-  console.log(`✅ Server running on http://localhost:${port}`);
-});
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => console.log(`✅ Server running on http://localhost:${PORT}`));

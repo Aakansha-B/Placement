@@ -48,3 +48,7 @@ export default function JobStatus() {
     </div>
   );
 }
+
+//=========very imp for overview dashboard===========================
+const trackerStats = { applications: 12, shortlisted: 3 };
+localStorage.setItem("trackerStats", JSON.stringify(trackerStats));

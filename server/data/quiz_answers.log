@@ -1,0 +1,68 @@
+{"ts":1762329155787,"payload":{"questionIndex":0,"question":"What is the primary purpose of Docker?","selected":"To containerize applications","correct":true,"timedOut":false,"ts":1762329155781,"logs":[]}}
+{"ts":1762329167099,"payload":{"questionIndex":1,"question":"What is the command to verify that Docker is installed and running correctly?","selected":"docker version","correct":false,"timedOut":false,"ts":1762329167092,"logs":[]}}
+{"ts":1762329171080,"payload":{"questionIndex":2,"question":"What is the difference between a Docker image and a Docker container?","selected":"An image is a template for a container, while a container is a running instance of an image","correct":true,"timedOut":false,"ts":1762329171077,"logs":[]}}
+{"ts":1762329178097,"payload":{"questionIndex":3,"question":"What is the purpose of the Dockerfile?","selected":"To define the build process for a Docker image","correct":true,"timedOut":false,"ts":1762329178092,"logs":[]}}
+{"ts":1762329192531,"payload":{"questionIndex":4,"question":"How do you persist data in a Docker container so that it is retained even after the container is deleted?","selected":"By using a Docker container","correct":false,"timedOut":false,"ts":1762329192524,"logs":[]}}
+{"ts":1762329458475,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329458455,"logs":[]}}
+{"ts":1762329458488,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329458458,"logs":[]}}
+{"ts":1762329458497,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329458477,"logs":[]}}
+{"ts":1762329458507,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329458490,"logs":[]}}
+{"ts":1762329476110,"payload":{"questionIndex":0,"question":"What is the primary purpose of Docker?","selected":"To containerize applications","correct":true,"timedOut":false,"ts":1762329476109,"logs":[]}}
+{"ts":1762329480828,"payload":{"questionIndex":1,"question":"What is the difference between a Docker image and a Docker container?","selected":"An image is a template for a container, while a container is a running instance of an image","correct":true,"timedOut":false,"ts":1762329480829,"logs":[]}}
+{"ts":1762329493982,"payload":{"questionIndex":2,"question":"How do you list all running Docker containers?","selected":"docker run -it","correct":false,"timedOut":false,"ts":1762329493980,"logs":[]}}
+{"ts":1762329499220,"payload":{"questionIndex":3,"question":"What is the purpose of the Dockerfile?","selected":"To define the build process for a Docker image","correct":true,"timedOut":false,"ts":1762329499221,"logs":[]}}
+{"ts":1762329515754,"payload":{"questionIndex":4,"question":"How do you persist data in a Docker container?","selected":"By using a Docker volume","correct":true,"timedOut":false,"ts":1762329515749,"logs":[]}}
+{"ts":1762329528664,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329528647,"logs":[]}}
+{"ts":1762329528688,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329528669,"logs":[]}}
+{"ts":1762329528693,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329528650,"logs":[]}}
+{"ts":1762329528698,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329528664,"logs":[]}}
+{"ts":1762329532800,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329532794,"logs":[]}}
+{"ts":1762329532805,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329532796,"logs":[]}}
+{"ts":1762329533002,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329532989,"logs":[]}}
+{"ts":1762329533009,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329532992,"logs":[]}}
+{"ts":1762329583047,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329583042,"logs":[]}}
+{"ts":1762329583054,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329583044,"logs":[]}}
+{"ts":1762329583979,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329583983,"logs":[]}}
+{"ts":1762329583988,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329583986,"logs":[]}}
+{"ts":1762329584262,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329584266,"logs":[]}}
+{"ts":1762329584278,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329584282,"logs":[]}}
+{"ts":1762329592562,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329592559,"logs":[]}}
+{"ts":1762329592569,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329592560,"logs":[]}}
+{"ts":1762329594149,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329594151,"logs":[]}}
+{"ts":1762329594193,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329594153,"logs":[]}}
+{"ts":1762329594396,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329594398,"logs":[]}}
+{"ts":1762329594411,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329594400,"logs":[]}}
+{"ts":1762329804854,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329804838,"logs":[]}}
+{"ts":1762329804864,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329804841,"logs":[]}}
+{"ts":1762329804895,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329804893,"logs":[]}}
+{"ts":1762329804902,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329804903,"logs":[]}}
+{"ts":1762329808016,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329808016,"logs":[]}}
+{"ts":1762329808107,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329808104,"logs":[]}}
+{"ts":1762329808132,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329808130,"logs":[]}}
+{"ts":1762329808163,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329808155,"logs":[]}}
+{"ts":1762329847011,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329846994,"logs":[]}}
+{"ts":1762329847020,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329846995,"logs":[]}}
+{"ts":1762329850623,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329850624,"logs":[]}}
+{"ts":1762329850633,"payload":{"final":true,"score":0,"answered":1,"total":0,"ts":1762329850627,"logs":[]}}
+{"ts":1762355824822,"topic":"Api","question":"What does API stand for?","selected":"Application Programming Interface","correct":true,"timedOut":false}
+{"ts":1762355830677,"topic":"Api","question":"Which HTTP method is used to retrieve data from an API?","selected":"GET","correct":true,"timedOut":false}
+{"ts":1762355840558,"topic":"Api","question":"What is the primary purpose of API authentication?","selected":"To secure API access","correct":true,"timedOut":false}
+{"ts":1762355850775,"topic":"Api","question":"Which API design principle emphasizes simplicity and flexibility?","selected":"REST","correct":true,"timedOut":false}
+{"ts":1762355854938,"topic":"Api","question":"How do you handle errors in an API, according to best practices?","selected":"Return a detailed error message with a unique error code","correct":true,"timedOut":false}
+{"ts":1762355930988,"topic":"Api","question":"What does API stand for?","selected":"Application Programming Interface","correct":true,"timedOut":false}
+{"ts":1762355934660,"topic":"Api","question":"Which HTTP method is used to retrieve data from an API?","selected":"GET","correct":true,"timedOut":false}
+{"ts":1762355944069,"topic":"Api","question":"What is the primary purpose of API documentation?","selected":"To explain how to use the API and its various endpoints","correct":true,"timedOut":false}
+{"ts":1762355947450,"topic":"Api","question":"Which of the following is a benefit of using RESTful APIs?","selected":"Simplified development and maintenance due to stateless design","correct":true,"timedOut":false}
+{"ts":1762355954509,"topic":"Api","question":"How do APIs typically handle authentication and authorization?","selected":"Using CAPTCHA to prevent automated requests","correct":false,"timedOut":false}
+{"ts":1762408376792,"topic":"Os","question":"What is the primary function of an Operating System?","selected":"To manage network connections","correct":false,"timedOut":false}
+{"ts":1762408385667,"topic":"Os","question":"Which of the following OS types is known for its ability to run on multiple hardware platforms?","selected":"Microkernel","correct":false,"timedOut":false}
+{"ts":1762418825358,"topic":"Tensorflow","question":"What is the primary function of the TensorFlow library?","selected":"To provide a wide range of tools for machine learning and deep learning","correct":true,"timedOut":false}
+{"ts":1762418829682,"topic":"Tensorflow","question":"Which of the following is a key feature of TensorFlow's Keras API?","selected":"It provides a high-level interface for building neural networks","correct":true,"timedOut":false}
+{"ts":1762418832670,"topic":"Tensorflow","question":"What is the purpose of the tf.data API in TensorFlow?","selected":"To provide a way to load and preprocess data for training models","correct":true,"timedOut":false}
+{"ts":1762418836105,"topic":"Tensorflow","question":"Which of the following is an advantage of using TensorFlow's distributed training capabilities?","selected":"It allows for faster training of large models by distributing the workload across multiple machines","correct":true,"timedOut":false}
+{"ts":1762418846486,"topic":"Tensorflow","question":"What is the purpose of the tf.GradientTape context in TensorFlow?","selected":"To record operations for automatic differentiation","correct":true,"timedOut":false}
+{"ts":1762433564289,"topic":"Os","question":"What is the primary function of the operating system?","selected":"To manage software applications","correct":false,"timedOut":false}
+{"ts":1762433570650,"topic":"Os","question":"Which of the following operating systems is open-source?","selected":"Linux","correct":true,"timedOut":false}
+{"ts":1762433573414,"topic":"Os","question":"What is the purpose of virtual memory in an operating system?","selected":"To allow multiple programs to run simultaneously","correct":false,"timedOut":false}
+{"ts":1762433582601,"topic":"Os","question":"Which operating system component is responsible for managing the allocation and deallocation of memory?","selected":"Device Manager","correct":false,"timedOut":false}
+{"ts":1762433586167,"topic":"Os","question":"What is the difference between a process and a thread in an operating system?","selected":"A process is a separate memory space, while a thread shares the same memory space","correct":true,"timedOut":false}
